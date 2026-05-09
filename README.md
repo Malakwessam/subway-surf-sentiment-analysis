@@ -7,7 +7,7 @@ This project implements an end-to-end **sentiment analysis pipeline** on Google 
 The workflow starts from **web scraping raw user reviews**, followed by **data cleaning and annotation**, then **text representation**, and finally **machine learning models** to predict sentiment.  
 The goal is to build reliable sentiment labels and evaluate different text representation techniques and models.
 
----
+
 
 ## Project Pipeline
 
@@ -73,7 +73,7 @@ The goal is to build reliable sentiment labels and evaluate different text repre
 - VADER, AFINN
 - Gensim (GloVe)
 
----
+
 
 ## Output Files
 - `cleaned_subway_surfers_reviews.csv`
@@ -81,6 +81,6 @@ The goal is to build reliable sentiment labels and evaluate different text repre
 - `tfidf_features.csv`
 - `glove_features.csv`
 
----
+
 
 This project demonstrates a complete NLP workflow from raw data collection to sentiment prediction using multiple representations and models.
